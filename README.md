@@ -5,30 +5,15 @@
 Hello there, I'm A.B.  I've been writing PHP for almost 15 years, and programming even longer.  I write a large variety 
 of other languages from time to time, such as Javascript and the C language -- and of course PHP.
 
-If I'm not doing those things I can usually be found trying to learn about or improve various open source operating 
-systems, such as Debian Linux, other types of Linux, and the big three BSDs: OpenBSD, NetBSD, and FreeBSD -- all three 
-of which I have a soft spot for.
-
 These are various notes I've collected throughout the ages to help share interesting and useful tidbits about software
-development and systems management (aka. server administration, or operations), theoretical and real-world.   I do these
-things to pay my bills, so it's a big deal to me. 
-
-All notes were written by me unless otherwise noted, or you go to an external site of course.  I have a large collection
-of notes and as of August of 2019, and I will try to get them all sorted through, cleaned up, and committed to this git 
-repository before the end of the year.  
-
-Additionally, I have even more generic libraries and small projects that are in various stages of development, from 
-only a rough concept all the way through a small few that are totally complete, but have never seen the open-source 
-light of day, and were never used in various commercial projects.  Similarly, I will begin releasing them as soon as I 
-am able to time-wise.  
+development and systems management (aka. server administration, or operations), theoretical and real-world commercial
+software development.   I do these things to pay my bills, so it's a **big** deal to me. 
 
 For general meta information and licensing information (CC BY-SA 4.0) about this repository, please see [META.md] which
 also contains a brief overview how the non-code text within this repository is licensed.  This is separate from 
-[Project.Licenses..md] which is an overview of different licenses and plain-english what they mean.
+[Licensing.Works.Overview.md] which is an overview of different licenses and plain-english what they mean.
 
-Please additionally note that all code examples here are public domain and require no attribution, unless you personally
-choose to do so, or is noted otherwise.  Any examples that I did not personally write, I have attempted to credit the 
-original author(s) where due.
+[Licensing.Works.Overview.md]: Licensing.Works.Overview.md
 
 ## Markdown Cheat Sheet
 

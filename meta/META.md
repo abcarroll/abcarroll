@@ -4,6 +4,14 @@ This is meta.  meta has information, "to-do", disclaimer and copyrights, and mor
 
 ## About / Contact
 
+All notes were written by me unless otherwise noted, or you go to an external site of course.  I have a large collection
+of notes and as of August of 2019, and I will try to get them all sorted through, cleaned up, and committed to this git 
+repository before the end of the year.  
+
+Please additionally note that all code examples here are public domain and require no attribution, unless you personally
+choose to do so, or is noted otherwise.  Any examples that I did not personally write, I have attempted to credit the 
+original author(s) where due.
+
 If you wish to contact me, you may do so by sending an e-mail to the output of the following base64 encoded string:
 
 `YmVuQGhsOS5uZXQK`
