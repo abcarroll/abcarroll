@@ -29,6 +29,11 @@ Since this repository is written in markdown, markdown related things go first, 
 
  - [A.B's PHP Cookbook](PHP.Cookbook.md)
  - [A.B's Guide to PHP Testing](PHP.Testing.md)
+ 
+ 
+# Linux, BSD
+
+ - [Linux Gazette](https://linuxgazette.net/lg_index.html) - Went my whole life never seeing this.
 
  
 ## TODO
