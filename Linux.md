@@ -16,3 +16,6 @@ for executing the previous instance of command quickly
 
 6) learn c 
 
+7) learn how to use find. 
+
+8) text manipulation is probably the most tedious things in a shell.  For example to get a hash from sha256sum, if you pass a file it'll show up as "ddax99d -" with the trailing bit.
