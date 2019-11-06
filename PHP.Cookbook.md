@@ -18,27 +18,27 @@ somewhat vetted or used by me personally.
  - [alexia/php7mar][alexia-php7mar] - Generates an overview on PHP 5.x to PHP 7.x conversion for a particular input.  Potential issues, etc.
  - [josfaber/phpcc][josfaber/phpcc] - Best-effort compatibility checker command line tool.
 
-[alexia-php7mar]: https://packagist.org/packages/alexia/php7mar 
-[josfaber/phpcc]: https://github.com/josfaber/phpcc 
+[alexia-php7mar]: https://packagist.org/packages/alexia/php7mar
+[josfaber/phpcc]: https://github.com/josfaber/phpcc
 
 ## Pipelines and Generic Middlewares (Concept)
 
  - [cerbero90/Workflow][cerbero90/Workflow] - Likely my least favorite actual implementation, but could be my favorite as a 
  generic concept (see their example regarding Commands, Workflows, and [Http]Requests).
 
-[cerbero90/Workflow]: [https://github.com/cerbero90/Workflow]
+[cerbero90/Workflow]: https://github.com/cerbero90/Workflow
 
 ## Application Servers (Servlets, etc)
 
  - appserver-io
  - roadrunner
  - ....
- 
- 
+
+
 ## Websockets
 
  - Rachet (socketo.me)
- 
+
 
 ## HTTP / REST 
 
@@ -80,7 +80,7 @@ Tidy-like tools.
 
  - https://github.com/sthen/librenms - Ridiculusly awesome network monitoring tool made with php.
  - https://github.com/sthen/librenms/blob/master/syslog.php - Syslog example
-  
+
 ## Todo - To Be Continued
 
  - https://packagist.org/packages/neomerx/json-api
