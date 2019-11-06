@@ -1,5 +1,15 @@
 # Software Design & Architecture
 
+## 2019 Resources
+
+The below list is a little dated and with some 404's, as it comes from a 2016 list of notes.  These are some that are from earlier this year (2019):
+
+   - https://mattallan.me/posts/rest-and-ddd/
+     - https://github.com/matt-allan/l5-quicksilver
+   - https://alistair.cockburn.us/hexagonal-architecture/ - Note: This is "the original" specification
+  - [Extremely Detailed Overview + CQRS](https://herbertograca.com/2017/11/16/explicit-architecture-01-ddd-hexagonal-onion-clean-cqrs-how-i-put-it-all-together/)
+  - [Zeta Architecture: Hexagon is the new circle](https://mapr.com/blog/zeta-architecture-hexagon-new-circle/)
+
 ## General
 
 - [SourceMaking.com - Design Patterns, Domain Design](https://sourcemaking.com/) - Very large resource
