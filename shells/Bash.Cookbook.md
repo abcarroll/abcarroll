@@ -2,6 +2,24 @@
 
 This is for interactive bash use – eg. using it _as a shell_.  For programming, see [Shell Scripting](Shell.Scripting.md).
 
+## Quick Search Through Manual
+
+You'll need `rg` or ripgrep first (you NEED it anyway):
+
+```
+sudo apt-get install ripgrep
+rg -C 3 -i --no-ignore --no-ignore-global --no-ignore-parent --no-ignore-vcs --pre mandoc '\b$TERM\b' /usr/share/man/man*
+```
+
+Or, for just a generally quick search **into** files:
+```
+rg -C 3 -i --no-ignore --no-ignore-global --no-ignore-parent --no-ignore-vcs <TERM> <PATH>
+```
+
+For a fast search that replaces `find`, there is `fd`, -- I am not sure if there is a normal Debian package for it, .. however it is on the Rust Language cargo site.
+
+
+
 ## !foo to run foo again
 
 You can use `!nameofcmd` to re-invoke `nameofcmd` using the same arguments as the last invokation. 
