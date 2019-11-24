@@ -2,15 +2,20 @@
 
 [![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-sa/4.0/)
 
-Hello there, I'm A.B.  I've been writing PHP for almost 15 years, and programming even longer.  I write a large variety 
-of other languages from time to time, such as Javascript and the C language.
+Hello there, I'm A.B.  I've been writing PHP for over 15 years, and programming even longer.  I write using a large variety 
+of other languages from time to time -- everything from Javascript, to C to Lua.
 
-These are various notes I've collected throughout the ages to help remind myself of interesting and useful tidbits about
-software development and systems management (aka. server administration, or operations), theoretical and real-world 
-commercial software development.   I do these things to pay my bills, so it's a **big** deal to me.
+Throughout the process of writing code professionally, I have accumulated a large collection of various notes.  Some of these notes are personal, very specific
+to projects I am working on, or just scraps of notes I've written to remind myself of things.  I decided that if they are useful to me, they may be useful to 
+other people.
 
-I am releasing them to the public little by little after cleaning much of it up.  I will attempt to finish this by the
-end of 2019. 
+Since I have so many personal/private notes in my actual collection, unfortunately I cannot just push the repository out to the world.  However, I figured that
+over time, I could review them little-by-little, and begin the slow process of publishing the parts that may be useful to other people.  This only represents
+a very small fraction of my overall main notes repository, but it is slowly growing.
+
+Remember, I do these things to pay my bills, so it's a **big** deal to me.  If you believe any of the notes here are incorrect, inappropriate, or anything of that
+nature, ... or if you just want to chat perhaps, ... feel free to [contact me](CONTACT.md).  I can be found on the FreeNode and OFTC IRC networks pretty much
+always using the nickname `mr_ab`.
 
 ## Markdown Cheat Sheet
 
@@ -28,12 +33,28 @@ Since this repository is written in markdown, markdown related things go first, 
 ## PHP and related
 
  - [A.B's PHP Cookbook](PHP.Cookbook.md)
+   - [PHP: Foreign Function Interface](php/foreign-function-interface-ffi.md)
+   - [PHP: Quality Assurance, Testing, and Deployment](php/quality-assurance-testing-deployment.md)
+   - [PHP: Getting mime types](php/getting-mime-types-mime-magic.md) (quick guide)
+   - [PHP and Git](php/git.md)
+   - [PHP and PDF](php/pdf.md) - Also general PDF information
+   - [PHP 5.x to 7.x Migration](php/php5-to-php7.md) - Tools
+   - [PHP: Misc](php/php-misc.md) - Some misc. notes
+   
  - [A.B's Guide to PHP Testing](PHP.Testing.md)
  
+ - https://www.oreilly.com/library/view/perl-cookbook/1565922433/ch20s07.html
  
 # Linux, BSD
 
- - [Linux Gazette](https://linuxgazette.net/lg_index.html) - Went my whole life never seeing this.
+ - [Linux Gazette](https://linuxgazette.net/lg_index.html) - A large collection of useful and worthwhile reading.  Went 
+ too long without seeing this.
+ 
+ 
+## Shell Quick Reference
+
+ - [Perl One Liners](https://www.rexegg.com/regex-perl-one-liners.html) - Excellent reference on quick one-liners for perl.
+
 
  
 ## TODO
