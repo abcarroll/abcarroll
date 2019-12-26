@@ -28,6 +28,55 @@ somewhat vetted or used by me personally.
 
 [cerbero90/Workflow]: https://github.com/cerbero90/Workflow
 
+## Quickly Create a .phar from composer project
+
+If you are interested in how to generate phars for very large projects, or interested in how they work, the 
+[StackOverflow: Generating a Phar from a Simple Application] question would be a good place to start as well as the
+composer "Compiler" class which is used to compile composer itself (See Stackoverflow Link). 
+
+### Additional Resources
+
+ - [Building an automated phar / simple CI/CD Integrations](https://andreas.heigl.org/2017/01/18/building-a-phar-automated/)
+
+### Libraries
+
+ - [humbug/box] is definitely the best way to go and supports most features, is customizable and easy to use. 
+ (Fork of abandoned [box-project/box2] project).  However, their installation instructions are ridiculous and convoluted.
+ - [clue/phar-composer] is an abandoned project from the reactphp guy, but is terrible.  Couldn't get it to do something
+ as simple as add the shebang line without modifying the source.  If you're planning on running it as 
+ "php yourproject.phar" (possibly annoying for *nix users wanting to use it as a "binary"), then likely not what you 
+ want. 
+ - [MacFJA/PharBuilder]: Did not try.
+
+### Installation of box
+
+Since their instructions are convulted, on *nix you can just do something like this: (you should do this anyway)
+```bash
+mkdir ~/.composer-global/;  cd ~/.composer-global/;
+composer require humbox/box;
+# a few moments later
+echo "" >> ~/.bashrc; echo "PATH=$PATH:$HOME/.composer-global/vendor/bin/" >> ~/.bashrc 
+# reload your shell, eg ". ~/.bashrc" for bash
+. ~/.bashrc
+box --help
+```
+
+Now, to get you started:
+
+```json
+{
+    "stub": "bin/acme.php",
+    "main": false
+}
+```
+
+[humbug/box]: https://github.com/humbug/box
+[box-project/box2]: https://github.com/box-project/box2
+[clue/phar-composer]: https://github.com/clue/phar-composer
+[MacFJA/PharBuilder]: https://github.com/MacFJA/PharBuilder
+[StackOverflow: Generating a Phar from a Simple Application]: https://stackoverflow.com/questions/15750913/generating-a-phar-for-a-simple-application
+
+
 ## Application Servers (Servlets, etc)
 
  - appserver-io
@@ -82,6 +131,19 @@ Tidy-like tools.
  - https://github.com/sthen/librenms/blob/master/syslog.php - Syslog example
 
 ## Todo - To Be Continued
+
+
+Anything below this line is cobbled notes.
+
+## Application Servers (Servlets, etc)
+
+ - appserver-io
+ - roadrunner
+ - https://github.com/php-pm/php-pm
+ 
+## Websockets
+
+ - Rachet (socketo.me)
 
  - https://packagist.org/packages/neomerx/json-api
 
