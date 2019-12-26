@@ -2,6 +2,15 @@
 
 [![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-sa/4.0/)
 
+<div style="background-color: #ff9800; border: 1px solid #333; margin: 1ex; padding: 1ex">
+  Note as of Dec 26th, 2019:
+  
+  <p>I am currently transitioning this to a real URL/website so that I can control presentation, offer search and actually have a normal website.  
+  The information that is currently here will definitely remain for the foreseeable future, but MAY not be updated further.</p>
+
+  <p>To view the most up-to-date version, see <a href="https://ab.hl9.net">http://ab.hl9.net</a></p>
+</div>
+
 Hello there, I'm A.B.  I've been writing PHP for over 15 years, and programming even longer.  I write using a large variety 
 of other languages from time to time -- everything from Javascript, to C to Lua.
 
