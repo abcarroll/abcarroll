@@ -53,8 +53,7 @@ Since this repository is written in markdown, markdown related things go first, 
 
 # Linux, BSD
 
- - [Linux Gazette](https://linuxgazette.net/lg_index.html) - A large collection of useful and worthwhile reading.  Went 
- too long without seeing this.
+ - 
 
 
 ## Shell Quick Reference
