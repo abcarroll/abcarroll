@@ -2,14 +2,11 @@
 
 [![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-sa/4.0/)
 
-<div style="background-color: #ff9800; border: 1px solid #333; margin: 1ex; padding: 1ex">
-  Note as of Dec 26th, 2019:
-  
-  <p>I am currently transitioning this to a real URL/website so that I can control presentation, offer search and actually have a normal website.  
-  The information that is currently here will definitely remain for the foreseeable future, but MAY not be updated further.</p>
+## Status as of April 2020
 
-  <p>To view the most up-to-date version, see <a href="https://ab.hl9.net">http://ab.hl9.net</a></p>
-</div>
+I am currently wishing to move these notes to <a href="https://ab.hl9.net">http://ab.hl9.net</a>.  I had originally planned to move them by the end of 2019, however as this note collection provides no income, I am unable to prioritize it for now.  For now, I will simply continue to update this GitHub repo for the foreseeable future.  If the URL becomes available later, I'lllupdate this.
+
+## Preface
 
 Hello there, I'm A.B.  I've been writing PHP for over 15 years, and programming even longer.  I write using a large variety 
 of other languages from time to time -- everything from Javascript, to C to Lua.
@@ -51,21 +48,21 @@ Since this repository is written in markdown, markdown related things go first, 
    - [PHP: Misc](php/php-misc.md) - Some misc. notes
    
  - [A.B's Guide to PHP Testing](PHP.Testing.md)
- 
+
  - https://www.oreilly.com/library/view/perl-cookbook/1565922433/ch20s07.html
- 
+
 # Linux, BSD
 
  - [Linux Gazette](https://linuxgazette.net/lg_index.html) - A large collection of useful and worthwhile reading.  Went 
  too long without seeing this.
- 
- 
+
+
 ## Shell Quick Reference
 
  - [Perl One Liners](https://www.rexegg.com/regex-perl-one-liners.html) - Excellent reference on quick one-liners for perl.
 
 
- 
+
 ## TODO
 
  - A lot.  
