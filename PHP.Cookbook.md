@@ -1,7 +1,10 @@
 # PHP Cookbook / Quick Starts
 
+
 Below is a simple list of particular packages and/or resources for a given topic.  Packages marked with (*) have been
 somewhat vetted or used by me personally.
+
+[Awesome PHP - Constantly Updated list of PHP Resources](https://github.com/ziadoz/awesome-php)
 
 ## Resources
 
