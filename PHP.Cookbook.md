@@ -51,6 +51,10 @@ composer "Compiler" class which is used to compile composer itself (See Stackove
  want. 
  - [MacFJA/PharBuilder]: Did not try.
 
+### Frameworks
+
+ - [API Platform](https://github.com/api-platform/api-platform)
+
 ### Installation of box
 
 Since their instructions are convulted, on *nix you can just do something like this: (you should do this anyway)
