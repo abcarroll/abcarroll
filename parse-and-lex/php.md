@@ -6,7 +6,7 @@
 
 - [doctrine/lexer](https://github.com/doctrine/lexer) - What powers the DQL parser in Doctrine
 - [ftdebugger/jungle](https://github.com/ftdebugger/jungle) - No updates in 10 years now, but a very good implementation of a PHP SLR parser generator, just needs some modernization.
-
+- [botchris/slr-phparser](https://github.com/botchris/slr-phparser) - A much more simple LR(1) parser generator for php.  The grammar is written in PHP syntax itself, using callbacks for the actions.  Very clear code of how transition tables work for LR(1) and LR(0), but not written in modern PHP.
 
 ## nikic
 
