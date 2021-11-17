@@ -2,22 +2,19 @@
 
 [![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-sa/4.0/)
 
-## Status as of April 2020
+## Current status (Fall 2021)
 
-I am currently wishing to move these notes to <a href="https://ab.hl9.net">http://ab.hl9.net</a>.  I had originally planned to move them by the end of 2019, however as this note collection provides no income, I am unable to prioritize it for now.  For now, I will simply continue to update this GitHub repo for the foreseeable future.  If the URL becomes available later, I'lllupdate this.
+I am hoping to move these notes to <a href="https://ab.hl9.net">https://ab.hl9.net/</a> soon.  Due to the COVID-19 and life circumstances, I haven't been keeping this copy of my notes very up-to-date.  I expect to have a new site with better organized notes by 2022.
 
 ## Preface
 
-Hello there, I'm A.B.  I've been writing PHP for over 15 years, and programming even longer.  I write using a large variety 
-of other languages from time to time -- everything from Javascript, to C to Lua.
+Hello there, I am A.B. Carroll.  I have been professionally developing software and acting as a systems administrator for at least 14 years, and I've been interested in and learning about programming, Linux/BSD-based systems, networking, and related internet technologies for well over 20 years.
 
-Throughout the process of writing code professionally, I have accumulated a large collection of various notes.  Some of these notes are personal, very specific
-to projects I am working on, or just scraps of notes I've written to remind myself of things.  I decided that if they are useful to me, they may be useful to 
-other people.
+I enjoy writing software in and am comfortable using a large variety of programming languages and environments such as Javascript, PHP, the C Language, Lua, Rust, and even proprietary things such as Apex, just to name a few.  Likewise, on-going professional operations management and deployment of software such as web and database servers, with or without cloud-based infrastructure such as AWS or GCP, is usually part of the job as well.  I am familiar with Linux andalso OpenBSD, NetBSD and FreeBSD where BSD can be appropriate for use.
 
-Since I have so many personal/private notes in my actual collection, unfortunately I cannot just push the repository out to the world.  However, I figured that
-over time, I could review them little-by-little, and begin the slow process of publishing the parts that may be useful to other people.  This only represents
-a very small fraction of my overall main notes repository, but it is slowly growing.
+Throughout the years of software development and management, I have accumulated a large collection of notes and information regarding my personal experiences.  Most of the notes I cannot publish publicly, as they may contain trade secrets, personal information, or are just too specific to a given project. 
+
+However, as you can see, I have been reviewing them little-by-little, and begin the slow process of publishing the parts that may be useful to other people.  This only represents a very small fraction of my overall main notes repository, but it is slowly growing.
 
 Remember, I do these things to pay my bills, so it's a **big** deal to me.  If you believe any of the notes here are incorrect, inappropriate, or anything of that
 nature, ... or if you just want to chat perhaps, ... feel free to [contact me](CONTACT.md).  I can be found on the FreeNode and OFTC IRC networks pretty much
