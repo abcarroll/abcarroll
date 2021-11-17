@@ -5,6 +5,8 @@
 - https://github.com/qntm/loco – Aside from the Doctrine Lex project, likely the most complete parser kit in existence.   Very confusing however because the composer package is called `ferno/loco`.  The code itself really ought to be updated to PHP7.4 typehinting and techniques, perhaps [something I've been working on](git@github.com:abcarroll/loco.git).
 
 - [doctrine/lexer](https://github.com/doctrine/lexer) - What powers the DQL parser in Doctrine
+- [ftdebugger/jungle](https://github.com/ftdebugger/jungle) - No updates in 10 years now, but a very good implementation of a PHP SLR parser generator, just needs some modernization.
+
 
 ## nikic
 
