@@ -30,4 +30,11 @@ The last available documentation is in version 2.3.  The last commit with the st
 
  - [CMPT 886 Interesting Papers](https://www2.cs.sfu.ca/~wsumner/teaching/886/18/papers.html) - A list of several high-level papers describing various papers related to compiler design in a Simon Fraser University CS class.  Additionally, the professor has a [High Level Overview of LLVM](https://www.cs.sfu.ca/~wsumner/teaching/886/llvm.pdf) available in PDF.
 
+## Lambda Calculus and Turing Machines
 
+### Iota and Jot
+
+Iota and jot can be described as the simplest language.  It is an unambiguous, turing-complete language which just two symbols:
+
+ - [Original Resource by Chris Barker](https://web.archive.org/web/20160823182917/http://semarch.linguistics.fas.nyu.edu/barker/Iota/)
+ - [Wikipedia Article](https://en.wikipedia.org/wiki/Iota_and_Jot)
