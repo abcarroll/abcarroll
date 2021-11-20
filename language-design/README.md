@@ -38,3 +38,7 @@ Iota and jot can be described as the simplest language.  It is an unambiguous, t
 
  - [Original Resource by Chris Barker](https://web.archive.org/web/20160823182917/http://semarch.linguistics.fas.nyu.edu/barker/Iota/)
  - [Wikipedia Article](https://en.wikipedia.org/wiki/Iota_and_Jot)
+
+## Lambda Calculus
+
+ - [A Complete Lambda Calculus Tutorial](https://cb125.github.io/lambda.html)
