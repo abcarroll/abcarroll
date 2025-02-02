@@ -14,7 +14,7 @@ Additionally, I have a large number of small scripts/projects which need polishi
 
 **I am A.B. Carroll III.**
 
-I have been a professional software engineer since before I was 18, completing my first contract gig at age 16 over XX years ago. Our family received its first computer, a 66MHz DX2, in 1995, and connected to the internet for the first time in 1997. I wrote my first HTML webpage at age 8 and began working with languages such as C, Perl, and eventually PHP in my early teens. At the same time, I delved into Linux and BSD-based operating systems, laying the foundation for a lifelong passion for open source, POSIX, and technology.
+I have been a professional software engineer since before I was 18, completing my first contract gig at age 16, some 20+ years ago. Our family received its first computer, a 66MHz DX2, in 1995, and connected to the internet for the first time in 1997. I wrote my first HTML webpage at age 8 and began working with languages such as C, Perl, and eventually PHP in my early teens. At the same time, I delved into Linux and BSD-based operating systems, laying the foundation for a lifelong passion for open source, POSIX, and technology.
 
 Today, in my mid 30's, I am proficient in a wide range of programming languages and environments. I am particularly skilled in PHP, Python, JavaScript, the C Language, and Linux/BSD operations. In addition to my technical expertise, I excel in project management, software architecture, ensuring that development and operations align with business goals while maintaining high-quality standards.
 
@@ -31,14 +31,19 @@ On top of my notes, I have written a few small open source projects over the yea
  - `bash-better-history`: A part of a larger suite of Bash/shell environment scripts, this will ensure that Bash shell history is always kept, and keeps it highly searchable.
  - `bash-profile.d`: A part of a larger suite of Bash/shell environment scripts, this is a simple system to manage `.bashrc` modifications, particularly for someone who accesses many machines remotely and wishes to keep their environment consistent.
  - `tmux-start`: A small utility to launch `tmux`, so you can attach to existing sessions quickly.
- - `mysql-reproducable-vcs-dump`: A very simple script that can generate reproducible MySQL/MariaDB SQL table schemas.  By comparing one to the next, you can see if a particular database has changed schema without notifying the DB administrator. 
+ - [`reproducible-mysqldump-for-vcs`](https://github.com/abcarroll/reproducible-mysqldump-for-vcs): A very simple script that can generate reproducible MySQL/MariaDB SQL table schemas for version control systems (VCS).  By comparing one to the next, you can see if a particular database has changed schema without notifying the DB administrator.  The script even will generate git commits for you if the schema changes.  Also tracks triggers.
  - PHP
    - `ab/lib-mime`: A simple mime type library, available in composer.
    - `ab/twidal-x`: A fork of a project called `twidal`, which integrates into Twig for XML-based data.
    - `ab/locoX`: A recursive-descent monadic parser-generator.  Based on a project called Loco, but improved and modernized using modern PHP techniques.
-   - `ab/simple-ansi-escape`: Obsolete, but interesting project if you want to look into ANSI tty/pty escape sequences.  
+   - [simple-ansi-escape](https://github.com/abcarroll/simple-ansi-escape): Obsolete, but interesting project if you want to look into ANSI tty/pty escape sequences.  
    - `pressuretest-php`: Obsolete set of scripts for testing for memory leaks in particular PHP functions.
-
+   - [ab-web-starter](https://github.com/abcarroll/ab-web-starter): A very simple project which shows how to use various PHP modularity properly
+ - TypeScript
+   - [ts-logger](https://github.com/abcarroll/ts-logger): A TypeScript logging class that copies PHP PSR-3
+ - Obsolete
+   - [`abcarroll/fiche`](https://github.com/abcarroll/fiche) - A fork of the original `fiche` project which took in several improvements from other forks on github, and put them into a single repo.  `fiche` is a simple pastebin server.
+ 
 ## Notes 
 
  - [adam-p/markdown-here wiki cheatsheet]
@@ -58,9 +63,6 @@ On top of my notes, I have written a few small open source projects over the yea
  - [Cloud and VPS Providers](cloud/Cloud.and.VPS.Providers.md)
  - [End-User Storage Providers](cloud/End-User.Storage.Providers.md)
  - [ELK Stack](ELK.Stack.md)
-
-
-
 
 ### Language Design, VM Design, Language Parsing & Lexing
 
@@ -153,7 +155,7 @@ also contains a brief overview how the non-code text within this repository is l
 [Licensing.Works.Overview.md]: Licensing.Works.Overview.md
 
 ---
-(C) Copyright 2019 A.B. Carroll (http://github.com/abcarroll/abcarroll)  \
+(C) Copyright 2019-2025 A.B. Carroll (http://github.com/abcarroll/abcarroll)  \
 See [meta/META.md](meta/META.md) for full use, licensing, and copyright details.
 
 [adam-p/markdown-here wiki cheatsheet]: https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
