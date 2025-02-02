@@ -55,15 +55,16 @@ On top of my notes, I have written a few small open source projects over the yea
 
 ### Cloud Related
 
- - [...](cloud/Cloud.and.VPS.Providers.md)
- - [...](cloud/End-User.Storage.Providers.md)
+ - [Cloud and VPS Providers](cloud/Cloud.and.VPS.Providers.md)
+ - [End-User Storage Providers](cloud/End-User.Storage.Providers.md)
+ - [ELK Stack](ELK.Stack.md)
 
-### Design Patterns
 
- - [...](design-patterns/README.md)
+
 
 ### Language Design, VM Design, Language Parsing & Lexing
 
+ - [Building Compilers](BuildingCompilers.md)
  - [Language Design Overview](language-design/README.md)
  - [Parser and Lexer Overview](parse-and-lex/README.md)
  - [My list of Parsers and Lexer Software](parse-and-lex/parse-and-lex.md)
@@ -71,13 +72,27 @@ On top of my notes, I have written a few small open source projects over the yea
 
 ### Linux and BSD 
 
+ - [Linux Overview](Linux.md)
+ - [OpenBSD Overview](OpenBSD.md)
  - [Linux Image Processing and Conversion](linux-and-bsd/Image.Processing.and.Conversion.md)
  - [Linux NSS and PAM login](linux-and-bsd/NSS.and.PAM.md)
  - [Linux RAID through MDADM](linux-and-bsd/raid.md)
  - [Remote Control of a Linux Machine](linux-and-bsd/Remote.Control.md)
  - [Linux and BSD Resources](linux-and-bsd/resources.md)
 
-### PHP and related
+### Programming and Software Development
+
+ - [TCL and TCL/Tk](TclandTclTk.md)
+
+#### Design Patterns
+
+ - [Various Design Pattern Information](design-patterns/README.md)
+
+#### C Language
+
+ - [C Cookbook](C-COOKBOOK.md)
+
+#### PHP
 
  - [A.B's PHP Cookbook](PHP.Cookbook.md)
    - [About superglobals and globals](php/super-globals.md)
@@ -93,13 +108,7 @@ On top of my notes, I have written a few small open source projects over the yea
    - [Software Architecture Resources - DDD Design](php/software-architecture-resources-ddd.md)
    - [PHP: Misc](php/php-misc.md) - Some misc. notes
  - [A.B's Guide to PHP Testing](PHP.Testing.md)
- - [Application Servers](php/application-servers.md) - All about PHP-based application servers (like gearman)
- 
- - [...](php/getting-mime-types-mime-magic.md)
- - [...](php/git.md)
- - [...](php/pdf.md)
- - [...](php/php-misc.md)
- - [...](php/php5-to-php7.md.md)
+ - [Application Servers](php/application-servers.md) - All about PHP-based application servers (like gearman) 
  - [Quality Assurance (QA) and Testing in PHP](php/quality-assurance-testing-deployment.md)
  - [Software Architecture Resources - DDD Design](php/software-architecture-resources-ddd.md)
 
