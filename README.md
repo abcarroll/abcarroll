@@ -2,29 +2,86 @@
 
 [![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-sa/4.0/)
 
-## Current status (Fall 2021)
+## Current status (Jan 2025)
 
-I am hoping to move these notes to <a href="https://ab.hl9.net">https://ab.hl9.net/</a> soon.  Due to the COVID-19 and life circumstances, I haven't been keeping this copy of my notes very up-to-date.  I expect to have a new site with better organized notes by 2022.
+I have been mostly out of the open-source world for a while now.
+
+I would like to move/mirror this over at https://ab.hl9.net.  I will be doing that in the next few weeks.
+
+Additionally, I have a large number of small scripts/projects which need polishing and released.  Mostly very small utilities for Linux.  Some are distro-specific, some are generic.  I would like to ensure they are licensed and packaged properly. 
 
 ## Preface
 
-Hello there, I am A.B. Carroll.  I have been professionally developing software and acting as a systems administrator for at least 14 years, and I've been interested in and learning about programming, Linux/BSD-based systems, networking, and related internet technologies for well over 20 years.
+**I am A.B. Carroll III.**
 
-I enjoy writing software in and am comfortable using a large variety of programming languages and environments such as Javascript, PHP, the C Language, Lua, Rust, and even proprietary things such as Apex, just to name a few.  Likewise, on-going professional operations management and deployment of software such as web and database servers, with or without cloud-based infrastructure such as AWS or GCP, is usually part of the job as well.  I am familiar with Linux andalso OpenBSD, NetBSD and FreeBSD where BSD can be appropriate for use.
+I have been a professional software engineer since before I was 18, completing my first contract gig at age 16 over XX years ago. Our family received its first computer, a 66MHz DX2, in 1995, and connected to the internet for the first time in 1997. I wrote my first HTML webpage at age 8 and began working with languages such as C, Perl, and eventually PHP in my early teens. At the same time, I delved into Linux and BSD-based operating systems, laying the foundation for a lifelong passion for open source, POSIX, and technology.
 
-Throughout the years of software development and management, I have accumulated a large collection of notes and information regarding my personal experiences.  Most of the notes I cannot publish publicly, as they may contain trade secrets, personal information, or are just too specific to a given project. 
+Today, in my mid 30's, I am proficient in a wide range of programming languages and environments. I am particularly skilled in PHP, Python, JavaScript, the C Language, and Linux/BSD operations. In addition to my technical expertise, I excel in project management, software architecture, ensuring that development and operations align with business goals while maintaining high-quality standards.
 
-However, as you can see, I have been reviewing them little-by-little, and begin the slow process of publishing the parts that may be useful to other people.  This only represents a very small fraction of my overall main notes repository, but it is slowly growing.
+Beyond my experience in application development and systems administration—which I have practiced professionally for over 14 years—I am deeply fascinated by the inner workings of programming languages. I enjoy dissecting and understanding the technical intricacies of programming language design, including error handling models, the differences between static and dynamic typing, various object-oriented paradigms, and how different languages manage memory. I also explore how virtual machines operate—be it the Java VM, Python’s VM, or PHP’s VM—as well as how just-in-time compilation and static analysis contribute to optimizing performance across diverse architectures.  Of particular interest is the LLVM Compiler Architecture, and its various compiler optimization methods including Polly, the polyhederal compiler optimization suite for LLVM, and various interesting methodology such as register spilling. 
 
-Remember, I do these things to pay my bills, so it's a **big** deal to me.  If you believe any of the notes here are incorrect, inappropriate, or anything of that
-nature, ... or if you just want to chat perhaps, ... feel free to [contact me](CONTACT.md).  I can be found on the FreeNode and OFTC IRC networks pretty much
-always using the nickname `mr_ab`.
+Over the years, I have compiled an extensive collection of personal notes and experiences. Although much of this material remains private—containing trade secrets or project-specific details—I am gradually sharing the portions that might benefit the broader community.
+
+I do this work professionally to pay my bills, so the accuracy and clarity of these notes are of great importance to me. If you find any of the content to be inaccurate, inappropriate, or if you’d simply like to chat, please feel free to contact me. I am regularly available on the FreeNode and OFTC IRC networks under the nickname `mr_ab`.
+
+## Some of my projects
+
+On top of my notes, I have written a few small open source projects over the years. 
+
+ - `bash-better-history`: A part of a larger suite of Bash/shell environment scripts, this will ensure that Bash shell history is always kept, and keeps it highly searchable.
+ - `bash-profile.d`: A part of a larger suite of Bash/shell environment scripts, this is a simple system to manage `.bashrc` modifications, particularly for someone who accesses many machines remotely and wishes to keep their environment consistent.
+ - `tmux-start`: A small utility to launch `tmux`, so you can attach to existing sessions quickly.
+ - `mysql-reproducable-vcs-dump`: A very simple script that can generate reproducible MySQL/MariaDB SQL table schemas.  By comparing one to the next, you can see if a particular database has changed schema without notifying the DB administrator. 
+ - PHP
+   - `ab/lib-mime`: A simple mime type library, available in composer.
+   - `ab/twidal-x`: A fork of a project called `twidal`, which integrates into Twig for XML-based data.
+   - `ab/locoX`: A recursive-descent monadic parser-generator.  Based on a project called Loco, but improved and modernized using modern PHP techniques.
+   - `ab/simple-ansi-escape`: Obsolete, but interesting project if you want to look into ANSI tty/pty escape sequences.  
+   - `pressuretest-php`: Obsolete set of scripts for testing for memory leaks in particular PHP functions.
+
+## Notes 
+
+ - [adam-p/markdown-here wiki cheatsheet]
+
+
+### Bash Related
+
+ - [My Bash Cookbook](bash-and-sh/Bash.Cookbook.md)
+ - [My Bash/sh Resources](bash-and-sh/Resources.md)
+ - [Shell Scripting](bash-and-sh/Shell.Scripting.md)
+
+### PHP and related
+
+ - [A.B's PHP Cookbook](PHP.Cookbook.md)
+   - [About superglobals and globals](php/super-globals.md)
+   - [async and parallel execution in PHP](php/async-and-parallel.md)
+   - [Foreign Function Interface in PHP](php/foreign-function-interface-ffi.md) 
+   - [PHP: Foreign Function Interface](php/foreign-function-interface-ffi.md)
+   - [PHP: Quality Assurance, Testing, and Deployment](php/quality-assurance-testing-deployment.md)
+   - [PHP: Getting mime types](php/getting-mime-types-mime-magic.md) (quick guide)
+   - [PHP and Git](php/git.md)
+   - [PHP and PDF](php/pdf.md) - Also general PDF information
+   - [PHP 5.x to 7.x Migration](php/php5-to-php7.md) - Tools
+   - [Quality Assurance (QA) and Testing in PHP](php/quality-assurance-testing-deployment.md)
+   - [Software Architecture Resources - DDD Design](php/software-architecture-resources-ddd.md)
+   - [PHP: Misc](php/php-misc.md) - Some misc. notes
+ - [A.B's Guide to PHP Testing](PHP.Testing.md)
+ - [Application Servers](php/application-servers.md) - All about PHP-based application servers (like gearman)
+ 
+ - [...](php/getting-mime-types-mime-magic.md)
+ - [...](php/git.md)
+ - [...](php/pdf.md)
+ - [...](php/php-misc.md)
+ - [...](php/php5-to-php7.md.md)
+ - [Quality Assurance (QA) and Testing in PHP](php/quality-assurance-testing-deployment.md)
+ - [Software Architecture Resources - DDD Design](php/software-architecture-resources-ddd.md)
+
 
 ## Markdown Cheat Sheet
 
 Since this repository is written in markdown, markdown related things go first, here:
 
- - [adam-p/markdown-here wiki cheatsheet] is a pretty good markup cheat sheet.
+ - [] is a pretty good markup cheat sheet.
  - [highlight.js languages repository] is how to find out which languages are called what using the syntax highlighting.
  For example, you need to use `sql` not `mysql`, but interestingly there is a `pgsql`, too.  Just remove ".js" from the 
  names in the directory.
@@ -32,19 +89,6 @@ Since this repository is written in markdown, markdown related things go first, 
 ## General Software Development
 
  - [Licensing Works: An Overview](Licensing.Works.Overview.md)
-
-## PHP and related
-
- - [A.B's PHP Cookbook](PHP.Cookbook.md)
-   - [PHP: Foreign Function Interface](php/foreign-function-interface-ffi.md)
-   - [PHP: Quality Assurance, Testing, and Deployment](php/quality-assurance-testing-deployment.md)
-   - [PHP: Getting mime types](php/getting-mime-types-mime-magic.md) (quick guide)
-   - [PHP and Git](php/git.md)
-   - [PHP and PDF](php/pdf.md) - Also general PDF information
-   - [PHP 5.x to 7.x Migration](php/php5-to-php7.md) - Tools
-   - [PHP: Misc](php/php-misc.md) - Some misc. notes
-   
- - [A.B's Guide to PHP Testing](PHP.Testing.md)
 
  - https://www.oreilly.com/library/view/perl-cookbook/1565922433/ch20s07.html
 
