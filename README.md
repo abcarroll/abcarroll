@@ -43,12 +43,39 @@ On top of my notes, I have written a few small open source projects over the yea
 
  - [adam-p/markdown-here wiki cheatsheet]
 
+## Shell Quick Reference
+
+ - [Perl One Liners](https://www.rexegg.com/regex-perl-one-liners.html) - Excellent reference on quick one-liners for perl.
 
 ### Bash Related
 
  - [My Bash Cookbook](bash-and-sh/Bash.Cookbook.md)
  - [My Bash/sh Resources](bash-and-sh/Resources.md)
  - [Shell Scripting](bash-and-sh/Shell.Scripting.md)
+
+### Cloud Related
+
+ - [...](cloud/Cloud.and.VPS.Providers.md)
+ - [...](cloud/End-User.Storage.Providers.md)
+
+### Design Patterns
+
+ - [...](design-patterns/README.md)
+
+### Language Design, VM Design, Language Parsing & Lexing
+
+ - [Language Design Overview](language-design/README.md)
+ - [Parser and Lexer Overview](parse-and-lex/README.md)
+ - [My list of Parsers and Lexer Software](parse-and-lex/parse-and-lex.md)
+ - [Information regarding PHP and parsing](parse-and-lex/php.md)
+
+### Linux and BSD 
+
+ - [Linux Image Processing and Conversion](linux-and-bsd/Image.Processing.and.Conversion.md)
+ - [Linux NSS and PAM login](linux-and-bsd/NSS.and.PAM.md)
+ - [Linux RAID through MDADM](linux-and-bsd/raid.md)
+ - [Remote Control of a Linux Machine](linux-and-bsd/Remote.Control.md)
+ - [Linux and BSD Resources](linux-and-bsd/resources.md)
 
 ### PHP and related
 
@@ -76,6 +103,9 @@ On top of my notes, I have written a few small open source projects over the yea
  - [Quality Assurance (QA) and Testing in PHP](php/quality-assurance-testing-deployment.md)
  - [Software Architecture Resources - DDD Design](php/software-architecture-resources-ddd.md)
 
+### Misc
+
+  - [Some Jokes](observations/Jokes.md) and [Observations](observations/Software.Development.md)
 
 ## Markdown Cheat Sheet
 
@@ -89,19 +119,7 @@ Since this repository is written in markdown, markdown related things go first, 
 ## General Software Development
 
  - [Licensing Works: An Overview](Licensing.Works.Overview.md)
-
  - https://www.oreilly.com/library/view/perl-cookbook/1565922433/ch20s07.html
-
-# Linux, BSD
-
- - 
-
-
-## Shell Quick Reference
-
- - [Perl One Liners](https://www.rexegg.com/regex-perl-one-liners.html) - Excellent reference on quick one-liners for perl.
-
-
 
 ## TODO
 
@@ -117,7 +135,6 @@ Since this repository is written in markdown, markdown related things go first, 
    - Twig and friends
    - Write some scripts to keep this repo clean and tidy.
    
-
 ## This Repository
 
 For general meta information and licensing information (CC BY-SA 4.0) about this repository, please see [META.md] which
